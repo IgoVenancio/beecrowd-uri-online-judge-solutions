@@ -1,17 +1,13 @@
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+var lines = input.split(' ')
 
-let entradas = lines.shift().split(' ')
-let count = 0
+let a = parseInt(lines.shift())
+let b = parseInt(lines.shift())
 let soma = 0
-let a = parseInt(entradas[count++])
-let b = parseInt(entradas[count++])
 
-do{
-    if(b <= 0)
-        b = parseInt(entradas[count++])
-}while(b <= 0)
-
+while(b <= 0){
+    b = parseInt(lines.shift())
+}
 for(let i = 0 ; i <= b - 1; i++){
     soma += a
     a++
