@@ -8,4 +8,4 @@ function areaDoCirculo(raio){
 
 let raio = Number(lines.shift());
 
-console.log(`A=${areaDoCirculo(raio).toFixed(4)}`)
+console.log(`X = ${areaDoCirculo(raio).toFixed(4)}`)

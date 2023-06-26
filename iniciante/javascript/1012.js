@@ -1,4 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 let numeros = lines.shift().split(' ')
@@ -19,3 +19,6 @@ console.log(`CIRCULO: ${areaCirculo(c).toFixed(3)}`)
 console.log(`TRAPEZIO: ${areaTrapezio(a, b, c).toFixed(3)}`)
 console.log(`QUADRADO: ${areaQuadrado(b).toFixed(3)}`)
 console.log(`RETANGULO: ${areaRetangulo(a, b).toFixed(3)}`)
+
+
+

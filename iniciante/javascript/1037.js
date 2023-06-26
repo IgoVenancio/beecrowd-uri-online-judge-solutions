@@ -1,5 +1,5 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+var input = require('fs').readFileSync('stdin', 'utf8')
+var lines = input.split('\n')
 
 const intervalo = function (a){
     if(a >= 0 && a <= 25){

@@ -1,4 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 let entradas = lines.shift().split(' ')
@@ -16,3 +16,5 @@ if(a == 0 || delta < 0){
     console.log(`R1 = ${r1.toFixed(5)}`)
     console.log(`R2 = ${r2.toFixed(5)}`)
 }
+
+

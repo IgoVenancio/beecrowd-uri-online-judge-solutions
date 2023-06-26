@@ -1,4 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 let numeros = lines.shift().split(' ')
@@ -15,3 +15,6 @@ function maior(a, b, c){
 let resultado = maior(a, b, c)
 
 console.log(`${resultado} eh o maior`)
+
+
+
