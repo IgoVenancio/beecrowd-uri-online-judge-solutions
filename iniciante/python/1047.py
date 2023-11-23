@@ -38,9 +38,6 @@ def calcular_hora(a, b, c, d):
         if a == c and b == d:
             break
 
-    if count_minutos == 60:
-        count_horas += 1
-
     return count_horas, count_minutos
 
 
