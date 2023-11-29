@@ -3,6 +3,7 @@
 def matriz_quadrada(dimensao):
     return [[0 for _ in range(dimensao)] for _ in range(dimensao)]
 
+
 def area_superior(matriz, limite):
     inicio = 0
     fim = limite
@@ -13,6 +14,7 @@ def area_superior(matriz, limite):
             matriz[i][j] = incremento
             incremento += 1
         inicio += 1
+
 
 def area_inferior(matriz, limite):
     linha = 0
@@ -28,6 +30,7 @@ def area_inferior(matriz, limite):
             incremento += 1
         inicio += 1
 
+
 def imprimir_lista(matriz, limite):
     for i in range(limite):
         for j in range(limite):
@@ -35,6 +38,7 @@ def imprimir_lista(matriz, limite):
                 print(str(matriz[i][j]).rjust(3))
             else:
                 print(str(matriz[i][j]).rjust(3), end=' ')
+
 
 def imprimir_linha():
     print()
