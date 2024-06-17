@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from sys import stdin
 
+
 def main():
     qtd_estrelas = int(stdin.readline())
     estrelas = list(map(int, stdin.readline().split()))
@@ -27,6 +28,7 @@ def main():
             posicao_atual += 1
 
     print(estrelas_atacadas.count(1), qtd_carneiros_roubados)
+
 
 if __name__ == "__main__":
     main()
