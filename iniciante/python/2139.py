@@ -6,7 +6,6 @@ def qtd_dias_ate_natal(mes, dia):
     for m in range(mes - 1, 12):
         qtd_dias += lista_dias[m]
     
-    lista_dias[mes] - dia + 25
     qtd_dias -= dia
     return qtd_dias
 
