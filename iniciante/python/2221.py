@@ -1,4 +1,4 @@
-# 2221.py
+# -*- coding: utf-8 -*-
 def valor_golpe(a, b, c, bonus):
     return (int(a) + int(b)) / 2 + (0, int(bonus))[int(c) % 2 == 0]
 
